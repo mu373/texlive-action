@@ -3,7 +3,8 @@
 set -e
 
 # Install fonts
-apt install -y ttf-mscorefonts-installer
+apt-get update -y
+apt-get install -y ttf-mscorefonts-installer
 
 tex_files="${1}"
 compiler="${2}"
