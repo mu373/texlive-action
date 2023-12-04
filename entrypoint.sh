@@ -2,6 +2,9 @@
 
 set -e
 
+# Install fonts
+sudo apt install -y ttf-mscorefonts-installer
+
 tex_files="${1}"
 compiler="${2}"
 options="${3}"
