@@ -4,10 +4,13 @@
 # TeXLive Action
 
 This action compiles LaTeX docs to PDF using latexmk with a minimal texlive image.
-- Diff from original repoository ([repaction/texlive](https://github.com/repaction/texlive)): MS fonts included (i.e., Times New Roman)
+
+Differences from the original repoository ([repaction/texlive](https://github.com/repaction/texlive))
+- Includes Microsoft fonts (i.e., Times New Roman)
+- Uses TeX Live Docker image from [Paperist/texlive-ja](https://github.com/Paperist/texlive-ja)
 
 ## Example
-In your tex document repository:
+In your TeX document repository, setup a GitHub Action like this. The compiled PDF will be available as artifacts (downloadable as ZIP).
 ```yaml
 name: Build LaTeX document
 on:
