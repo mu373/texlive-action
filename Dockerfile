@@ -1,4 +1,4 @@
-FROM fredqi/texlive:academic
+FROM paperist/texlive-ja:latest
 
 COPY entrypoint.sh /usr/bin/
 
