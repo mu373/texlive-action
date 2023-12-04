@@ -1,4 +1,4 @@
-![Test TeXLive Action](https://github.com/mu373/texlive/workflows/Test%20TeXLive%20Action/badge.svg)
+![Test TeXLive Action](https://github.com/mu373/texlive-action/workflows/Test%20TeXLive%20Action/badge.svg)
 ---
 
 # TeXLive Action
